@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UX Behavior Analytics Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="logica.js"></script>
     <style>
         /* CSS brutalista y limpio. Menos es más. */
         :root {
@@ -25,11 +27,16 @@
             flex-direction: column;
             align-items: center;
         }
-        header {
-            width: 100%;
-            max-width: 1000px;
-            margin-bottom: 2rem;
-        }
+header {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+    <div style="margin-bottom: 2rem; background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border: 1px dashed var(--accent); text-align: center;">
+    <h3 style="margin-top: 0;">Sube el dataset de Kaggle (CSV)</h3>
+    <input type="file" id="csvFileInput" accept=".csv" style="padding: 0.5rem; cursor: pointer;">
+    <p style="font-size: 0.85rem; margin-top: 0.5rem;">El procesamiento se hace 100% en tu navegador. Tus datos no viajan a ningún servidor.</p>
+</div>
+}
         h1 { margin: 0 0 0.5rem 0; font-size: 1.8rem; }
         p { color: var(--text-muted); margin: 0; }
         
