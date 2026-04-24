@@ -1,0 +1,13 @@
+user_id,last_step,frustration_element
+1,Purchase Completed,None
+2,Checkout,Terms Checkbox
+3,Cart,Apply Coupon Button
+4,Product List,Size Selector
+5,Purchase Completed,None
+6,Product Detail,Size Selector
+7,Home,Image Carousel
+8,Checkout,Terms Checkbox
+9,Cart,Apply Coupon Button
+10,Purchase Completed,None
+11,Checkout,Terms Checkbox
+12,Cart,Apply Coupon Button
